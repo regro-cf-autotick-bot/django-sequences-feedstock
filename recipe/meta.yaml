@@ -1,5 +1,5 @@
 {% set name = "django-sequences" %}
-{% set version = "2.8" %}
+{% set version = "3.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 91f4b222ac8fc102ae76abef76ff1291684b4dec0d38d97f189b64b26c2a1b56
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 6408874a1399fb1ccc42abb4ebc84bfeb8be45e5023fbdc2d5f1124586622d15
 
 build:
   number: 0
